@@ -1,0 +1,55 @@
+import QtQuick 2.0
+
+ListModel {
+    property string name: "01.3_Mind_and_Reason"
+    ListElement { txt: "aufpassen<br>(aufpassen, passte auf, hat aufgepasst)<br><br>Pass auf! Von links kommt ein Auto."; tr: "look out (for) v <br><br>Look out! A car is coming from the left."; known: false }
+    ListElement { txt: "bewusst<br>(bewusst)<br><br>Es ist ihm bewusst, dass er für seinen Fehler die Verantwortung übernehmen muss."; tr: "aware<br><br>He is aware of the fact that he has to take responsibility for his mistake."; known: false }
+    ListElement { txt: "denken<br>(denken, dachte, hat gedacht)<br><br>Bei dieser Arbeit muss man nicht viel denken. Denken Sie an den Termin um 20.00 Uhr? Was denkst du über den Vorschlag?"; tr: "think<br><br>For this work you don't have to think much. You will think of the appointment at 8:00 p.m., won't you? What do you think of the suggestion?"; known: false }
+    ListElement { txt: "erfahren<br>(erfahren, erfuhr, hat erfahren)<br><br>Hast du von Eva etwas Neues erfahren?"; tr: "hear<br><br>Have you heard anything new from Eva?"; known: false }
+    ListElement { txt: "Erfahrung<br>(die Erfahrung, die Erfahrungen)<br><br>Er ist ein guter Arzt. Er hat viel Erfahrung."; tr: "experience<br><br>He is a good physician. He has a lot of experience."; known: false }
+    ListElement { txt: "erinnern<br>(erinnern, erinnerte, hat erinnert)<br><br>Erinnere Eva bitte an ihr Versprechen! Kannst du dich an ihn erinnern?"; tr: "remind, remember<br><br>Please remind Eva of her promise. Do you remember him?"; known: false }
+    ListElement { txt: "Erinnerung<br>(die Erinnerung, die Erinnerungen)<br><br>Sie hatte gute Erinnerungen an ihre Kindheit."; tr: "memory<br><br>She had good memories of her childhood."; known: false }
+    ListElement { txt: "erkennen<br>(erkennen, erkannte, hat erkannt)<br><br>Er trägt jetzt einen Bart, deshalb habe ich ihn nicht sofort erkannt."; tr: "recognize<br><br>He has a beard now; that's why I didn't recognize him immediately."; known: false }
+    ListElement { txt: "Gedächtnis<br>(das Gedächtnis, kein Plural)<br><br>Ich habe ein schlechtes Gedächtnis."; tr: "memory<br><br>I have a poor memory."; known: false }
+    ListElement { txt: "Gedanke<br>(der Gedanke, die Gedanken)<br><br>Dieser Gedanke gefällt mir."; tr: "thought, idea<br><br>I like this idea."; known: false }
+    ListElement { txt: "Geist<br>(der Geist, kein Plural)<br><br>Sie ist schon über 90 Jahre alt, aber ihr Geist ist noch jung."; tr: "mind, spirit, soul<br><br>She is over 90 years old, but her mind is still young."; known: false }
+    ListElement { txt: "intelligent<br>(intelligent)<br><br>Sie ist intelligent, aber leider nicht zuverlässig."; tr: "intelligent<br><br>She is intelligent, but unfortunately not reliable."; known: false }
+    ListElement { txt: "Interesse<br>(das Interesse, die Interessen)<br><br>An Sport habe ich kein Interesse."; tr: "interest<br><br>I have no interest in sports."; known: false }
+    ListElement { txt: "interessieren<br>(interessieren, interessierte, hat interessiert)<br><br>Kunst interessiert ihn nicht. Er ist an Kunst nicht interessiert. Ich habe ihn für Kunst nicht interessieren können. Er interessiert sich nicht für alte Bilder."; tr: "interest<br><br>Art does not interest him. He is not interested in art. I have not been able to interest him in art. He is not interested in old pictures."; known: false }
+    ListElement { txt: "kennen<br>(kennen, kannte, hat gekannt)<br><br>Die Straße kenne ich gut. Ich kenne ihn nicht gut."; tr: "know<br><br>I know the street well. I do not know him well."; known: false }
+    ListElement { txt: "Kenntnis<br>(die Kenntnis, die Kenntnisse)<br><br>Er hat sehr gute Kenntnisse in Mathematik und Physik."; tr: "knowledge<br><br>His knowledge of mathematics and physics is excellent."; known: false }
+    ListElement { txt: "klug<br>(klug)<br><br>Wir haben alle viel getrunken. Es ist klüger, ein Taxi zu nehmen."; tr: "smart, clever, intelligent, wise, sensible<br><br>We all had a lot to drink. It would be wiser to take a taxi."; known: false }
+    ListElement { txt: "merken<br>(merken, merkte, hat gemerkt)<br><br>Ich merke schon, dass sich die Zeiten ändern. Sie kann sich keine Zahlen merken."; tr: "note, remember, retain, notice<br><br>I have noticed that the times are changing. She cannot retain numbers."; known: false }
+    ListElement { txt: "missverstehen<br>(missverstehen, missverstand, hat missverstanden)<br><br>Das habe ich nicht gesagt, da bin ich missverstanden worden."; tr: "misunderstand<br><br>I didn't say that; I must have been misunderstood."; known: false }
+    ListElement { txt: "Missverständnis<br>(das Missverständnis, die Missverständnisse)<br><br>So habe ich das nicht gesagt, das ist ein Missverständnis."; tr: "misunderstanding<br><br>I didn't say it like that; that is a misunderstanding."; known: false }
+    ListElement { txt: "nachdenken<br>(nachdenken, dachte nach, hat nachgedacht)<br><br>Hast du über meinen Vorschlag nachgedacht?"; tr: "think about<br><br>Have you thought about my suggestion?"; known: false }
+    ListElement { txt: "vergessen<br>(vergessen, vergaß, hat vergessen)<br><br>Ich habe meinen Schirm im Hotel vergessen. Entschuldigung, ich habe Ihren Namen vergessen."; tr: "forget<br><br>I forgot my umbrella at the hotel. Excuse me; I've forgotten your name."; known: false }
+    ListElement { txt: "Vernunft<br>(die Vernunft, kein Plural)<br><br>Das ist gegen jede Vernunft."; tr: "reason, common sense<br><br>That violates common sense."; known: false }
+    ListElement { txt: "vernünftig<br>(vernünftig)<br><br>Man kann gut mit ihr reden. Sie ist sehr vernünftig."; tr: "reasonable, sensible<br><br>She is good to talk to. She is a very sensible person."; known: false }
+    ListElement { txt: "Verstand<br>(der Verstand, kein Plural)<br><br>Hast du den Verstand verloren?"; tr: "mind<br><br>Have you lost your mind?"; known: false }
+    ListElement { txt: "verstehen<br>(verstehen, refl. verstand, hat verstanden)<br><br>Am Telefon konnte ich ihn nicht richtig verstehen. Ich verstehe nicht, warum sie das macht. Verstehst du diesen Satz? Er versteht etwas vom Kochen. Wir verstehen uns gut."; tr: "understand<br><br>I could not understand him very well on the telephone. I don't understand why she does that. Do you understand this sentence? He knows something about cooking. We get along well."; known: false }
+    ListElement { txt: "vorstellen<br>(vorstellen, stellte vor, hat vorgestellt)<br><br>Ich kann mir vorstellen, dass das klappt."; tr: "imagine, picture<br><br>I can imagine that it will work out."; known: false }
+    ListElement { txt: "begreifen<br>(begreifen, begriff, hat begriffen)<br><br>Diese Frage begreife ich nicht. Jetzt kann ich begreifen, warum er keine Lust hatte."; tr: "understand, comprehend,<br><br>I don't understand this question. Now I can understand why he wasn't interested."; known: false }
+    ListElement { txt: "dumm<br>(dumm)<br><br>Erzähl nicht so dumme Witze!"; tr: "dumb, stupid<br><br>Don't tell such stupid jokes."; known: false }
+    ListElement { txt: "Einfall<br>(der Einfall, die Einfälle)<br><br>Nachts schwimmen gehen -  was für ein verrückter Einfall."; tr: "notion, idea<br><br>Going swimming at night? What a crazy idea!"; known: false }
+    ListElement { txt: "einsehen<br>(einsehen, sah ein, hat eingesehen)<br><br>Ich glaube, er hat seinen Fehler jetzt eingesehen."; tr: "see, realize<br><br>I think he realized his mistake."; known: false }
+    ListElement { txt: "erfassen<br>(erfassen, erfasste, hat erfasst)<br><br>Bevor jemand die Situation erfasste, brannte das ganze Haus."; tr: "realize<br><br>Before anyone realized what was going on, the whole house was on fire."; known: false }
+    ListElement { txt: "erfinden<br>(erfinden, erfand, hat erfunden)<br><br>Die Geschichte hat sie erfunden. Diese technische Lösung habe ich selbst erfunden."; tr: "invent, make up<br><br>She made up the story. I invented this technical solution myself."; known: false }
+    ListElement { txt: "Erfindung<br>(die Erfindung, die Erfindungen)<br><br>Die Erfindung war gut, aber kein Industriebetrieb hatte daran Interesse."; tr: "invention<br><br>It was a good invention, but industry wasn't interested in it."; known: false }
+    ListElement { txt: "Erkenntnis<br>(die Erkenntnis, die Erkenntnisse)<br><br>Es wurden neue Erkenntnisse über die Ursache der Krankheit gewonnen."; tr: "information, (research) data<br><br>New data on the cause of the disease have been collected."; known: false }
+    ListElement { txt: "gescheit<br>(gescheit)<br><br>Bevor wir anfangen, müssen wir einen gescheiten Plan machen."; tr: "intelligent, clever<br><br>Before we begin, we have to formulate an intelligent plan."; known: false }
+    ListElement { txt: "geschickt<br>(geschickt)<br><br>Sie arbeitet sehr geschickt."; tr: "skillful, deft<br><br>She works very skillfully."; known: false }
+    ListElement { txt: "gewandt<br>(gewandt)<br><br>Sie ist sprachlich sehr gewandt."; tr: "nimble, skillful, skilled<br><br>She is very articulate."; known: false }
+    ListElement { txt: "Idee<br>(die Idee, die Ideen)<br><br>Hast du eine Idee, was wir ihr schenken können?"; tr: "idea<br><br>Do you have any idea what gift we could give her?"; known: false }
+    ListElement { txt: "Phantasie<br>(die Phantasie, kein Plural)<br><br>Den Architekten fehlt manchmal ein bisschen praktische Phantasie."; tr: "fantasy, imagination<br><br>Sometimes architects have little practical imagination."; known: false }
+    ListElement { txt: "überlegen<br>(überlegen, überlegte, hat überlegt)<br><br>Hast du dir überlegt, ob du das Angebot annimmst?"; tr: "consider<br><br>Have you considered whether you are going to accept the offer?"; known: false }
+    ListElement { txt: "verrückt<br>(verrückt)<br><br>Er ist ein verrückter Junge, aber ich mag ihn."; tr: "crazy<br><br>He is a crazy boy, but I like him."; known: false }
+    ListElement { txt: "Vorstellung<br>(die Vorstellung, die Vorstellungen)<br><br>Ich habe noch keine klare Vorstellung, wie man das Problem lösen könnte."; tr: "idea<br><br>I still don't have a clear idea how we can solve the problem."; known: false }
+    ListElement { txt: "wahnsinnig<br>(wahnsinnig)<br><br>Dieser Lärm macht mich wahnsinnig."; tr: "insane, crazy<br><br>This noise is driving me crazy."; known: false }
+    ListElement { txt: "weise<br>(weise)<br><br>Das war eine weise Entscheidung."; tr: "wise<br><br>That was a wise decision."; known: false }
+    ListElement { txt: "Vorstellung<br>(die Vorstellung, die Vorstellungen)<br><br>Ich habe noch keine klare Vorstellung, wie man das Problem lösen könnte."; tr: "idea<br><br>I still don't have a clear idea how we can solve the problem."; known: false }
+    ListElement { txt: "wahnsinnig<br>(wahnsinnig)<br><br>Dieser Lärm macht mich wahnsinnig."; tr: "insane, crazy<br><br>This noise is driving me crazy."; known: false }
+    ListElement { txt: "wise<br>(wise)<br><br>That was a wise decision."; tr: "weise Adj., -er, am -esten<br><br>Das war eine weise Entscheidung."; known: false }
+
+}
+

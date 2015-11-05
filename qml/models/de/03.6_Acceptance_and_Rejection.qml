@@ -1,0 +1,49 @@
+import QtQuick 2.2
+
+ListModel {
+    property string name: "03.6_Acceptance_and_Rejection"
+    ListElement { txt: "ablehnen<br>(ablehnen, lehnte ab, hat abgelehnt)<br><br>Ihre Einladung zum Essen muss ich leider ablehnen. Die Lohnforderungen der Gewerkschaft wurden von den Arbeitgebern abgelehnt."; tr: "turn down, refuse<br><br>Unfortunately, I have to turn down your dinner invitation. The union's raise demands were turned down by the employers."; known: false }
+    ListElement { txt: "Ablehnung<br>(die Ablehnung, die Ablehnungen)<br><br>Die Gründe für die Ablehnung meines Antrags verstehe ich nicht."; tr: "refusal, rejection<br><br>I don't understand why my application was rejected."; known: false }
+    ListElement { txt: "Bedenken<br>(das Bedenken, die Bedenken)<br><br>Ich habe Bedenken, ab Frau Bess für diesen Posten geeignet ist."; tr: "doubt<br><br>I have my doubts whether Ms. Bess is qualified for this job."; known: false }
+    ListElement { txt: "Beschwerde<br>(die Beschwerde, die Beschwerden)<br><br>Gegen den Bau der neuen Straße gibt es viele Beschwerden."; tr: "complaint, protest<br><br>There are many complaints against the construction of the new road."; known: false }
+    ListElement { txt: "beschweren<br>(beschweren, beschwerte, hat beschwert)<br><br>Ich habe mich bei meinem Wohnungsnachbarn wegen seiner lauten Musik beschwert."; tr: "complain<br><br>I complained to my neighbor in the next apartment about his loud music."; known: false }
+    ListElement { txt: "dennoch<br>(dennoch)<br><br>Er ist kein Fachmann, dennoch hat er versucht, die Heizung selbst zu reparieren."; tr: "however, anyway, in spite of, but<br><br>He's no expert, but he tried to repair the heater himself anyway."; known: false }
+    ListElement { txt: "doch<br>(doch)<br><br>Sie ist stark erkältet und doch geht sie zur Arbeit. Bist du nicht eingeladen? Doch!"; tr: "anyway, yet, still; yes<br><br>She has a bad cold, and yet she is going to work. Aren't you invited? Oh yes, I am."; known: false }
+    ListElement { txt: "egal<br>(egal)<br><br>Mir ist egal, was du anziehst."; tr: "all the same<br><br>It's all the same to me what you wear."; known: false }
+    ListElement { txt: "einig sein<br>(einig sein)<br><br>Wir streiten selten, meistens sind wir uns einig."; tr: "in agreement, of the same opinion<br><br>We seldom argue; we usually are of the same opinion."; known: false }
+    ListElement { txt: "einverstanden<br>(einverstanden)<br><br>Ich bin mit deinem Vorschlag einverstanden."; tr: "in agreement<br><br>I'm in agreement with your suggestion."; known: false }
+    ListElement { txt: "falsch<br>(falsch)<br><br>Wir sind falsch gefahren, wir hätten links abbiegen müssen. Sie hat mir eine falsche Adresse gegeben."; tr: "wrong, incorrect, false<br><br>We took the wrong way; we were supposed to turn left. She gave me the wrong address."; known: false }
+    ListElement { txt: "ja<br>(ja)<br><br>Bleibst du zu Hause? Ja."; tr: "yes<br><br>Are you staying home? Yes."; known: false }
+    ListElement { txt: "lieber<br>(lieber)<br><br>Willst du mitgehen oder lieber noch bleiben?"; tr: "rather, preferably<br><br>Are you coming along, or would you rather stay here?"; known: false }
+    ListElement { txt: "meinetwegen<br>(meinetwegen)<br><br>Kann ich morgen dein Auto haben? Meinetwegen!"; tr: "I don't care!, It's all the same to me!, Sure!<br><br>Can I have your car tomorrow? Sure!"; known: false }
+    ListElement { txt: "nein<br>(nein)<br><br>Sind Sie morgen im Büro? Nein, leider nicht."; tr: "no<br><br>Will you be in the office tomorrow? No, I'm afraid not."; known: false }
+    ListElement { txt: "nicht<br>(nicht)<br><br>Frau Behrens kenne ich nicht. Ich lache nicht über dich, sondern über den Hund dort."; tr: "not<br><br>I don't know Ms. Behrens. I'm not laughing at you but about that dog."; known: false }
+    ListElement { txt: "richtig<br>(richtig)<br><br>Die Antwort ist richtig."; tr: "right, correct<br><br>The answer is correct."; known: false }
+    ListElement { txt: "Sinn<br>(der Sinn, kein Plural)<br><br>Es hat keinen Sinn, bei diesem Regen weiterzuarbeiten. Den Sinn des Textes verstehe ich nicht."; tr: "sense, point, meaning<br><br>There's no sense in going on working in this rain. I don't understand the meaning of this text."; known: false }
+    ListElement { txt: "unbedingt<br>(unbedingt)<br><br>Ein Visum ist eine unbedingte Voraussetzung für eine Reise nach China. Ich muss unbedingt noch Brot für das Wochenende kaufen."; tr: "certain, sure, necessary, definite<br><br>A visa is a necessary prerequisite far a trip to China. I definitely need to buy same bread for the weekend."; known: false }
+    ListElement { txt: "Wahl<br>(die Wahl, die Wahlen)<br><br>Das muss ich tun, ich habe keine andere Wahl."; tr: "choice<br><br>I have to do that; I have no other choice."; known: false }
+    ListElement { txt: "wählen<br>(wählen, wählte, hat gewählt)<br><br>Wir haben das richtige Restaurant gewählt. Das Essen war gut. Ich kann zwischen drei Angeboten wählen."; tr: "choose<br><br>We chose the right restaurant. The food was great. I can choose among three offers."; known: false }
+    ListElement { txt: "widersprechen<br>(widersprechen, widersprach, hat widersprochen)<br><br>Das ist falsch, da muss ich widersprechen."; tr: "contradict, give another view<br><br>That is incorrect; I have to contradict you."; known: false }
+    ListElement { txt: "zugeben<br>(zugeben, gab zu, hat zugegeben)<br><br>Ute hat zugegeben, einen Fehler gemacht zu haben."; tr: "admit, agree<br><br>Ute admitted that she had made a mistake."; known: false }
+    ListElement { txt: "Zustimmung<br>(die Zustimmung, kein Plural)<br><br>In der Geschäftsleitung fand sein Plan sofort Zustimmung."; tr: "approval, agreement<br><br>His plan got approved by the management right away."; known: false }
+    ListElement { txt: "anerkennen<br>(anerkennen, erkannte an, hat anerkannt)<br><br>Man muss anerkennen, dass sie ihre Arbeit sehr gut macht."; tr: "acknowledge, admit, recognize, realize<br><br>You have to admit that she does her work very well."; known: false }
+    ListElement { txt: "ausnahmsweise<br>(ausnahmsweise)<br><br>Wir haben heute ausnahmsweise früher Feierabend."; tr: "exceptionally, as an exception<br><br>As an exception we finish work early today."; known: false }
+    ListElement { txt: "bedenken<br>(bedenken, bedachte, hat bedacht)<br><br>Ich habe nicht bedacht, dass es schon so spät ist. Ich muss unbedingt gehen."; tr: "realize, consider<br><br>I didn't realize it's already so late. I have to leave."; known: false }
+    ListElement { txt: "bestreiten<br>(bestreiten, bestritt, hat bestritten)<br><br>Sie bestreitet, dass sie die Schreibmaschine kaputt gemacht hat."; tr: "deny<br><br>She denies she broke the typewriter."; known: false }
+    ListElement { txt: "Einigung<br>(die Einigung, kein Plural)<br><br>Über diesen Punkt gibt es noch keine Einigung."; tr: "agreement<br><br>There's still no agreement on this point."; known: false }
+    ListElement { txt: "erwidern<br>(erwidern, erwiderte, hat erwidert)<br><br>Auf meine Frage hat sie nichts erwidert."; tr: "answer, respond, react<br><br>She didn't answer my question."; known: false }
+    ListElement { txt: "gleichgültig<br>(gleichgültig)<br><br>Willst du Kaffee oder Tee? Das ist mir gleichgültig."; tr: "all the same, indifferent<br><br>Do you want coffee or tea? It's all the same to me."; known: false }
+    ListElement { txt: "keinesfalls<br>(keinesfalls)<br><br>Wir sind keinesfalls vor 17.00 Uhr fertig."; tr: "in no case, under no circumstance<br><br>Under no circumstances will we be finished before 5 p.m."; known: false }
+    ListElement { txt: "Klage<br>(die Klage, die Klageen)<br><br>Gefällt Ihnen das Hotel? Ja, wir haben keine Klagen."; tr: "complaint<br><br>Do you like the hotel? Yes. We have no complaints."; known: false }
+    ListElement { txt: "klar<br>(klar)<br><br>Diese Frage verlangt eine klare Entscheidung. Machst du mit? Ja klar,"; tr: "clear, certain, of course<br><br>This question demands a clear decision. Are you coming along? Yes, of course."; known: false }
+    ListElement { txt: "Kompromiss<br>(der Kompromiss, die Kompromisse)<br><br>Er ist nicht bereit, einen Kompromiss zu machen."; tr: "compromise<br><br>He is not ready to agree to a compromise."; known: false }
+    ListElement { txt: "Protest<br>(der Protest, die Proteste)<br><br>Gegen das neue Gesetz gab es heftige Proteste."; tr: "protest<br><br>There were many protests against the new law."; known: false }
+    ListElement { txt: "protestieren<br>(protestieren, protestierte, hat protestiert)<br><br>Die Studenten protestieren gegen die Kürzungen im Bildungsbereich."; tr: "protest<br><br>Students are protesting the cutbacks in the educational sector."; known: false }
+    ListElement { txt: "Übereinkunft<br>(die Übereinkunft, die Übereinkünfte)<br><br>Im Büro gibt es eine Übereinkunft, nicht zu rauchen."; tr: "agreement<br><br>In the office there is an agreement not to smoke."; known: false }
+    ListElement { txt: "übereinstimmen<br>(übereinstimmen, stimmte überein, hat übereingestimmt)<br><br>Wir stimmen in unseren politischen Ansichten überein."; tr: "agree<br><br>We agree on our political opinions."; known: false }
+    ListElement { txt: "unrecht<br>(unrecht)<br><br>Sie will nicht zugeben, dass sie Unrecht hat."; tr: "agreement<br><br>In spite of lengthy discussions, no agreement was reached."; known: false }
+    ListElement { txt: "unrecht<br>(unrecht)<br><br>Sie will nicht zugeben, dass sie Unrecht hat."; tr: "wrong<br><br>She won't admit she was wrong."; known: false }
+    ListElement { txt: "Vorwurf<br>(der Vorwurf, die Vorwürfe)<br><br>Er hat mir Vorwürfe gemacht, weil ich zu spät gekommen bin."; tr: "accusation, reproach<br><br>He reproached me for being late."; known: false }
+
+}
+

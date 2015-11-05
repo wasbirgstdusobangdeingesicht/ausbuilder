@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/design/button_play.svg</file>
+        <file>assets/design/symbol_cross.svg</file>
+        <file>assets/design/symbol_tick.svg</file>
+        <file>assets/design/button_pause.svg</file>
+        <file>assets/design/symbol_eye_closed.svg</file>
+        <file>assets/design/symbol_sound.svg</file>
+        <file>assets/design/symbol_eye_opened.svg</file>
+    </qresource>
+</RCC>
