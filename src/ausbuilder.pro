@@ -9,7 +9,6 @@ CONFIG += c++11
 
 SOURCES += main.cpp
 
-RESOURCES += images.qrc qml.qrc assets/aude/01.1_The_Body/audio.qrc
 !mac: {
 #RESOURCES += assets/aude/01.1_The_Body/audio.qrc
 }
