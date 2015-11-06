@@ -1,2 +1,2 @@
 # ausbuilder
-qml german/english trainer based on "basic german vocabulary" (accidentally found on github)
+qml german/english trainer based on card material found on github (https://github.com/rteabeault/Flashcard/)
