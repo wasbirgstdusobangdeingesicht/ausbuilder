@@ -12,11 +12,6 @@ ListModel {
         property string url: "CardSelector.qml"
         property var props
     }
-//    ListElement {
-//        title: "Listen"
-//        property string url: "PlayPhrase.qml"
-//        property var props
-//    }
     ListElement {
         title: "About"
         property string url: "About.qml"

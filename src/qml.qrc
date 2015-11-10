@@ -123,15 +123,5 @@
         <file>qml/models/de/22.6_Indefinite_Pronouns.qml</file>
         <file>qml/models/de/23_Conjunctions.qml</file>
         <file>qml/models/de/24_Adverbs.qml</file>
-        <file>assets/design/button_pause.svg</file>
-        <file>assets/design/button_play.svg</file>
-        <file>assets/design/button_stop.svg</file>
-        <file>assets/design/symbol_cross.svg</file>
-        <file>assets/design/symbol_eye_closed.svg</file>
-        <file>assets/design/symbol_eye_opened.svg</file>
-        <file>assets/design/symbol_minus.svg</file>
-        <file>assets/design/symbol_plus.svg</file>
-        <file>assets/design/symbol_sound.svg</file>
-        <file>assets/design/symbol_tick.svg</file>
     </qresource>
 </RCC>

@@ -13,15 +13,15 @@
 int main(int argc, char * argv[])
 {
     QGuiApplication app(argc, argv);
-    app.setApplicationName(QStringLiteral("D.T."));
-    app.setOrganizationDomain(QStringLiteral("somecompany.com"));
-    app.setOrganizationName(QStringLiteral("some inc."));
+    app.setApplicationName(QStringLiteral("ausbuilder"));
+    app.setOrganizationDomain(QStringLiteral("scnsoft.com"));
+    app.setOrganizationName(QStringLiteral("ausbuilder"));
 
     QQuickView qmlView;
     qmlView.engine()->addImportPath("qml");
-    //qmlView.setResizeMode(QQuickView::SizeRootObjectToView);
+    qmlView.setResizeMode(QQuickView::SizeRootObjectToView);
 #if defined(Q_OS_WIN) || defined(Q_OS_LINUX) || defined(Q_OS_MAC)
-    //qmlView.resize(720, 480);
+    qmlView.resize(720, 480);
 #endif
 
     qmlView.screen()->setOrientationUpdateMask(Qt::LandscapeOrientation | Qt::InvertedLandscapeOrientation);
