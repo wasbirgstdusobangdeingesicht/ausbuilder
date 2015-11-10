@@ -171,15 +171,6 @@ Rectangle {
     }
     signal backPressed()
 
-    Settings {
-        id: theSettings
-        property bool isTutorialShown: false
-        property string favoritesjson: ""
-        // language is defined as an index in PickLanguageModel
-        property int languageFrom: -1
-        property int languageTo: -1
-    }
-
     Item {
         id: tmp
         property var thePhrase // temp object to pass phrase to the play screen
@@ -191,49 +182,6 @@ Rectangle {
             flick.state = "shown"
         else
             flick.state = "hidden"
-    }
-
-    function loadFavoritesModelFromSettings() {
-        if(theSettings.favoritesjson != "")
-        {
-            console.log("Parsing json " + theSettings.favoritesjson)
-            try{
-                var objectArray = JSON.parse(theSettings.favoritesjson);
-                if (typeof objectArray.errors === "Array")
-                {
-                    console.log("loadFavoritesModelFromSettings Error: " + objectArray.errors[0].message)
-                }
-                else
-                {
-                    for (var indx in objectArray.result)
-                    {
-                        favoritesModel.append(objectArray.result[indx]);
-                    }
-                 }
-            }catch(ee){
-                console.log(ee)
-            }
-        }
-        favoritesModel.onCountChanged.connect(saveFavoritesModelToSettings)
-    }
-
-    function saveFavoritesModelToSettings(){
-        if (favoritesModel.count === 0){
-            theSettings.favoritesjson = ""
-        }
-        else {
-            var fullStr = "{\"result\":[ "
-            for(var i=0; i<favoritesModel.count; ++i)
-            {
-                var obj = favoritesModel.get(i)
-                var str = JSON.stringify(obj)
-                fullStr += str + ","
-            }
-            fullStr = fullStr.slice(0,-1) // remove last ','
-            fullStr +="]}"
-
-            theSettings.favoritesjson = fullStr
-        }
     }
 
     signal clearComponentCache

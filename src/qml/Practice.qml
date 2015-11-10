@@ -279,12 +279,4 @@ BasicScreen {
         if(tutorialView.count > 0)
             saveToSettings()
     }
-
-//    Connections {
-//        target: theMainWindow
-//        onBackPressed: if (theSettings.isTutorialShown)
-//                           showScreen(nextScreen)
-//                       else Qt.quit()
-//    }
-
 }

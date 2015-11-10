@@ -5,11 +5,13 @@ QT +=   qml \
         multimedia \
         svg \
 
-CONFIG += c++11
+CONFIG += c++14
 
 SOURCES += main.cpp
 
-RESOURCES += images.qrc
+RESOURCES += images.qrc \
+	qml.qrc \
+	assets/aude/01.1_The_Body/audio.qrc
 
 !mac: {
 #RESOURCES += assets/aude/01.1_The_Body/audio.qrc
@@ -27,9 +29,9 @@ OTHER_FILES = main.qml \
               qml/models/de/*.qml \
               qml/controls/*.qml \
               android/AndroidManifest.xml \
-    qml/Card.qml \
-    qml/CardSelector.qml \
-    qml/models/MenuElement.qml
+              qml/Card.qml \
+              qml/CardSelector.qml \
+              qml/models/MenuElement.qml
 
 #AUDIO_FILES = $$files(assets/audio/*.mp3)
 
@@ -57,8 +59,9 @@ HEADERS += \
 
 ANDROID_PACKAGE_SOURCE_DIR = $$PWD/android
 
+ICON = assets/design/logo.png
 VERSION = "1.0.0.0"
-QMAKE_TARGET_COMPANY="D.T."
+QMAKE_TARGET_COMPANY="ausbuilder"
 QMAKE_TARGET_DESCRIPTION="Vocabular Ausbuilder"
 QMAKE_TARGET_COPYRIGHT="(c) 2015"
 QMAKE_TARGET_PRODUCT="ausbuilder"
