@@ -14,7 +14,7 @@ BasicScreen {
     }
 
     Text {
-        text: "Alle Sprachmittel, die man braucht!"
+        text: " ausbilder\n einfacher deutsch-englische trainer"
         font.pixelSize: Utils.scaled(25)
         color: "white"
         anchors.centerIn: parent
