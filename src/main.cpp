@@ -33,18 +33,19 @@ int main(int argc, char * argv[])
 #if defined(Q_OS_WIN) || defined(Q_OS_MAC) || defined(Q_OS_LINUX)
     qmlView.engine()->rootContext()->setContextProperty("audioRoot", "../../assets/aude/");
 #else
-    qmlView.engine()->rootContext()->setContextProperty("audioRoot", "qrc:/audio/");
+    qmlView.engine()->rootContext()->setContextProperty("audioRoot", "qrc:///audio/");
 #endif
 
-#if defined(Q_OS_IOS)
-    qmlView.engine()->rootContext()->setContextProperty("audioPath", QString("file://" + QFileInfo(QCoreApplication::applicationFilePath()).absoluteDir().path() + "/Documents/audio/"));
-#elif defined(Q_OS_DARWIN)
-    qmlView.engine()->rootContext()->setContextProperty("audioPath", QString(QCoreApplication::applicationFilePath() + "/../../Resources/audio/"));
-#elif defined(QT_DEBUG) && defined(Q_OS_WIN)
-    qmlView.engine()->rootContext()->setContextProperty("audioPath", QString("../../../src/assets/audio/"));
-#else
-    qmlView.engine()->rootContext()->setContextProperty("audioPath", QString("qrc:/audio/"));
-#endif
+    // TODO : when preparing for iOS the following path should be united with audioRoot
+//#if defined(Q_OS_IOS)
+//    qmlView.engine()->rootContext()->setContextProperty("audioPath", QString("file://" + QFileInfo(QCoreApplication::applicationFilePath()).absoluteDir().path() + "/Documents/audio/"));
+//#elif defined(Q_OS_DARWIN)
+//    qmlView.engine()->rootContext()->setContextProperty("audioPath", QString(QCoreApplication::applicationFilePath() + "/../../Resources/audio/"));
+//#elif defined(QT_DEBUG) && defined(Q_OS_WIN)
+//    qmlView.engine()->rootContext()->setContextProperty("audioPath", QString("../../../src/assets/audio/"));
+//#else
+//    qmlView.engine()->rootContext()->setContextProperty("audioPath", QString("qrc:/audio/"));
+//#endif
 
     // TODO: check macro names spelling
 #if defined(QT_NO_DEBUG) || defined(Q_OS_ANDROID) || defined(Q_OS_IOS)
